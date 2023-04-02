@@ -1,4 +1,4 @@
-import cv2
+import cv2            # importing the library
 
 img = cv2.imread('assets/imgg.jpg', 0) # try other flags
 img = cv2.resize(img, (400, 400))
